@@ -4,6 +4,8 @@ import React from 'react';
 import { Button } from 'antd';
 import { getLoginQrCKey } from './api';
 
+console.log(process.env.NODE_ENV);
+
 function App() {
   const fn = () => {
     getLoginQrCKey()
